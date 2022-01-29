@@ -1,0 +1,3 @@
+The bottom part had too small of a fit, and you need to scale that one up a bit when slicing (a couple percent).
+Or just redesign the case ;-)
+
