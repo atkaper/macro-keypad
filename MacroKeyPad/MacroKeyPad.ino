@@ -244,7 +244,7 @@ const char MSG_CONFIGTOGGLE[] PROGMEM = "configtoggle <NR> <SET> : [or c] config
 const char MSG_SHOWSETTINGS[] PROGMEM = "showsettings            : [or s] show settings";
 const char MSG_SETKEYCODE[]   PROGMEM = "setkeycode <NR> <CODE>  : [or k] set key code of key <NR> (1..8) to <CODE> 0..255";
 const char MSG_SETKEYCHAR[]   PROGMEM = "setkeychar <NR> <CHAR>  : [or h] set key character of key <NR> (1..8) to <CHAR> (a single char)";
-const char MSG_PERSIST[]      PROGMEM = "persist                 : [or p] write config to EEPROM (use if you changed keus or configtoggles)";
+const char MSG_PERSIST[]      PROGMEM = "persist                 : [or p] write config to EEPROM (use if you change keys or configtoggles)";
 const char MSG_LOAD[]         PROGMEM = "load                    : [or l] load config from EEPROM (automatically done on each startup)";
 const char MSG_HELP_END[]     PROGMEM = "\nYou can put multiple commands in one line - up to 79 characters (space separated), example: 'on 1 toggle 7 off 3'\n";
 

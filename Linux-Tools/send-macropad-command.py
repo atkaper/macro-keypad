@@ -61,7 +61,7 @@ parser.add_argument('-t', '--timeout', metavar='timeout', type=float, dest='time
                     help='time to wait for macro keypad to send a response to the command'
                     ' (default %(default)s, if partial or no response, change to 0.2 or higher)')
 parser.add_argument('-b', '--baud-rate', metavar='bps', type=int, dest='baud_rate', default=115200,
-                    help='baud rate, not intersting for atmega-32u4, but might be for others'
+                    help='baud rate, not interesting for atmega-32u4, but might be for others'
                     ' (default %(default)s)')
 group = parser.add_mutually_exclusive_group()
 group.add_argument('-d', '--device', metavar='device', dest='device',
